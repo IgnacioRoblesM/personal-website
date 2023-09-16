@@ -1,0 +1,224 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// html tags
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/wallpaper2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    background-attachment: fixed;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 12vh;
+}
+
+h1 {
+    color: white;
+    font-family:'Montserrat', Times, serif;
+}
+
+// Navbar
+
+.siteNavbar {
+    @extend .navbar;
+    @extend .navbar-expand-md;
+    @extend .bg-light;
+    // @extend .navbar-light;
+    @extend .fixed-top;
+}
+
+.siteNavbar-content {
+    @extend .container-fluid;
+}
+
+.siteNavbar-brand {
+    @extend .navbar-brand;
+}
+
+.siteNavbar-dropdownMenu {
+    @extend .navbar-toggler;
+}
+
+.siteNavbar-dropdownMenuLogo {
+    @extend .navbar-toggler-icon;
+}
+
+.siteNavbar-collapsableArea {
+    @extend .collapse;
+    @extend .navbar-collapse;
+}
+
+.siteNavbar-collapsableItems {
+    @extend .navbar-nav;
+    @extend .ms-auto;
+}
+
+.siteNavbar-collapsableItem {
+    @extend .nav-item;
+}
+
+.siteNavbar-link {
+    @extend .nav-link;
+    @extend .mx-2;
+}
+
+.siteNavbar-link--active {
+    @extend .active;
+}
+
+.siteNavbar-collapsableItem--dropdown {
+    @extend .dropdown;
+}
+
+.siteNavbar-link--dropdown {
+    @extend .dropdown-toggle;
+}
+
+.dropdownMenu {
+    // not working
+    @extend .dropdown-menu;
+}
+
+.dropdownMenu-item {
+    @extend .dropdown-item;
+}
+
+.dropdownMenu-item--active {
+    @extend .active;
+}
+
+// Carousel
+
+#carouselExampleIndicators {
+    height: 70vh;
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+
+.carousel-content {
+    @extend .carousel-inner;
+    @extend .align-middle;
+    margin: auto;
+}
+
+.carousel-prevButton {
+    @extend .carousel-control-prev;
+    height: 40vh;
+}
+
+.carousel-prevButtonIcon {
+    @extend .carousel-control-prev-icon;
+}
+
+.carousel-nextButton {
+    @extend .carousel-control-next;
+    height: 40vh;
+}
+
+.carousel-nextButtonIcon {
+    @extend .carousel-control-next-icon;
+}
+
+// Footer
+
+.siteFooter {
+    @extend .text-center;
+    @extend .text-lg-start;
+    @extend .bg-white;
+    @extend .text-muted;
+    margin-top: 5vh;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
+.siteFooter-copyright {
+    @extend .text-center;
+    @extend .p-4;
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+// site starting content
+
+.container {
+    margin-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.siteStartingContent {
+    @extend .container;
+}
+
+.siteStartingContent-innerGrid {
+    margin-top: 12vh;
+}
+
+// grid
+
+.column {
+    @extend .col-sm-12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.column--large {
+    @extend .col-lg-6;
+}
+
+.column--small {
+    @extend .col-lg-4;
+}
+
+// cards
+
+.card--long {
+    margin: 5vw;
+    width: 70vw;
+}
+
+.card--generic {
+    margin: auto;
+    width: 40vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card--stackable {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 75vw;
+}
+
+.card-text--paragraph {
+    font-size: 1rem;
+}
+
+// Images
+
+.logo {
+    height: 4em;
+}
+
+#profile-picture {
+    width: 100%;
+    max-width: 25vw;
+}
+
+.inlineImage {
+    height: 1em;
+}

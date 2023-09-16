@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ignacio Robles</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="siteNavbar">
+        <div class="siteNavbar-content">
+            <a class="siteNavbar-brand" href="index.html">
+                <img class="logo" src="images/ignaciorobles-logo.png" alt="Ignacio Robles Logo">
+            </a>
+            <button class="siteNavbar-dropdownMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="siteNavbar-dropdownMenuLogo"></span>
+            </button>
+          
+            <div class="siteNavbar-collapsableArea" id="navbarNavDropdown">
+              <ul class="siteNavbar-collapsableItems">
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" aria-current="page" href="goals.html">Mis objetivos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+                  <a class="siteNavbar-link siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Computación
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdownMenu-item" href="whyCS.html">Por qué computación?</a></li>
+                    <li><a class="dropdownMenu-item" href="favoriteCourses.html">Cursos preferidos</a></li>
+                    <li><a class="dropdownMenu-item" href="teachersAndClassmates.html">Mis profesores y compañeros</a></li>
+                    <li><a class="dropdownMenu-item" href="downloadables.html">Descargas</a></li>
+                  </ul>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="hobbies.html">Pasatiempos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="aboutThisSite.html">Acerca de este sitio</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                    <a class="siteNavbar-link" href="contactMe.html">Contácteme</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="siteStartingContent">
+        <div class="row">
+            <div class="column column--large">
+                <h1>Hola, me llamo Ignacio Robles</h1>
+            </div>
+            <div class="column column--large">
+                <img src="images/profile-pic2.JPG"
+                 alt="Ignacio Robles" id="profile-picture">
+            </div>
+        </div>
+    </div>
+
+    <div class="card card--long">
+        <div class="card-body">
+          <h5 class="card-title">Introducción</h5>
+          <p class="card-text">Tengo 22 años y vivo en San José, Costa Rica. Soy estudiante de 
+            Ciencias de la Computación e Informática con énfasis en Ingenieria
+            de Software en la Universidad de Costa Rica. Además del Español, 
+            hablo Inglés y un poco de Francés.</p>
+        </div>
+    </div>
+
+    <div class="card card--long">
+        <div class="card-body">
+          <h5 class="card-title">Gustos</h5>
+          <p class="card-text">Me gustan las películas (acción, comedia, drama, etc...), 
+            ver fútbol (usualmente la Champions League), leer libros, 
+            hacer ejercicio, viajar, construir software, entre otras cosas.</p>
+        </div>
+    </div>
+
+    <div class="card card--long">
+        <div class="card-body">
+          <h5 class="card-title">Experiencia</h5>
+          <p class="card-text">He trabajado para dos departamentos de la UCR creando aplicaciones
+            web utilizando tecnologías como JavaScript, Node.js, Webpack, Bootstrap, 
+            HTML, css, jquery, parcel, java, entre muchas otras.</p>
+        </div>
+    </div>
+
+
+    <footer class="siteFooter">
+        <!-- Copyright -->
+        <div class="siteFooter-copyright">
+            © 2023 Copyright: Ignacio Robles Mayorga
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

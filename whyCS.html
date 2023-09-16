@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Porqué Computación</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="siteNavbar">
+      <div class="siteNavbar-content">
+          <a class="siteNavbar-brand" href="index.html">
+              <img class="logo" src="images/ignaciorobles-logo.png" alt="Ignacio Robles Logo">
+          </a>
+          <button class="siteNavbar-dropdownMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="siteNavbar-dropdownMenuLogo"></span>
+          </button>
+        
+          <div class="siteNavbar-collapsableArea" id="navbarNavDropdown">
+            <ul class="siteNavbar-collapsableItems">
+              <li class="siteNavbar-collapsableItem">
+                <a class="siteNavbar-link" aria-current="page" href="goals.html">Mis objetivos</a>
+              </li>
+              <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+                <a class="siteNavbar-link siteNavbar-link--active siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Computación
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdownMenu-item dropdownMenu-item--active" href="whyCS.html">Por qué computación?</a></li>
+                  <li><a class="dropdownMenu-item" href="favoriteCourses.html">Cursos preferidos</a></li>
+                  <li><a class="dropdownMenu-item" href="teachersAndClassmates.html">Mis profesores y compañeros</a></li>
+                  <li><a class="dropdownMenu-item" href="downloadables.html">Descargas</a></li>
+                </ul>
+              </li>
+              <li class="siteNavbar-collapsableItem">
+                <a class="siteNavbar-link" href="hobbies.html">Pasatiempos</a>
+              </li>
+              <li class="siteNavbar-collapsableItem">
+                <a class="siteNavbar-link" href="aboutThisSite.html">Acerca de este sitio</a>
+              </li>
+              <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="contactMe.html">Contácteme</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <div class="siteStartingContent">
+        <h1>Por qué elegí Computación como carrera?</h1>
+    </div>
+
+    <div class="card card--long">
+        <div class="card-body">
+          <h5 class="card-title">Porque...</h5>
+          <p class="card-text">Cuando entré a la Universidad no me llamaba la
+            atención ninguna carrera en particular. Sin embargo, como siempre
+            fui bueno en las matemáticas busqué una ingeniería de mi agrado y
+            la ingeniería civil fue la elegida.
+            <br>
+            <br>
+            Estuve dos años en ingeniería civil, y después de ese tiempo llegué 
+            a la conclusión de que no era lo mío. Irónicamente, era demasiada
+            mate y no tanto de ingeniería, o al menos los primeros dos años. Sin 
+            embargo, en mi último semestre en la carrera llevé el curso de Principios
+            de Informática, en donde descubrí lo que era escribir código (en Python),
+            y este curso fue lo que me llevó a cambiarme de carrera a Ciencias de 
+            la Computación e Informática.
+            <br>
+            <br>
+            Ya dentro de la carrera, seguía con dudas sobre si fue la decisión 
+            correcta, pues los primeros cursos también son de temas muy básicos 
+            y relacionados a áreas de la computación que no me interesan. Sin 
+            embargo, habiendo llegado a Programación I ya se empezó a aclarar 
+            mi perspectiva de la carrera.
+            <br>
+            <br>
+            Ya en mi tercer año puedo decir que la razón de que estudio Ciencias 
+            de la Computación e Informática, específicamente con el énfasis de 
+            Ingeniería en Software, es para poder crear herramientas funcionales 
+            que ayuden a solucionar problemáticas en el mundo, y todo esto por 
+            medio de código y software de buena calidad y con mucho valor para el 
+            cliente.
+          </p>
+        </div>
+    </div>
+
+
+    <footer class="siteFooter">
+        <!-- Copyright -->
+        <div class="siteFooter-copyright">
+          © 2023 Copyright: Ignacio Robles Mayorga
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
