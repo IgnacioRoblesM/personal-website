@@ -1,0 +1,71 @@
+<!--#set var="title" value="Descargas" -->
+<!--#include file="header.shtml" -->
+<!--#include file="navbarTop.shtml" -->
+              <a class="siteNavbar-link" aria-current="page" href="goals.shtml">Mis objetivos</a>
+            </li>
+            <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+              <a class="siteNavbar-link siteNavbar-link--active siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Computación
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdownMenu-item" href="whyCS.shtml">Por qué computación?</a></li>
+                <li><a class="dropdownMenu-item" href="favoriteCourses.shtml">Cursos preferidos</a></li>
+                <li><a class="dropdownMenu-item" href="teachersAndClassmates.shtml">Mis profesores y compañeros</a></li>
+                <li><a class="dropdownMenu-item dropdownMenu-item--active" href="downloadables.shtml">Descargas</a></li>
+              </ul>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+              <a class="siteNavbar-link" href="hobbies.shtml">Pasatiempos</a>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+              <a class="siteNavbar-link" href="aboutThisSite.shtml">Acerca de este sitio</a>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+                <a class="siteNavbar-link" href="contactMe.shtml">Contácteme</a>
+<!--#include file="navbarBottom.shtml" -->
+
+    <div class="siteStartingContent">
+      <h1>Descargas</h1>
+
+      <div class="row siteStartingContent-innerGrid">
+        <div class="column column--small">
+          <div class="card card--stackable">
+              <div class="card-body">
+                <h5>
+                  <img class="inlineImage" src="images/github-logo.png" alt="github"> 
+                  <br>
+                  <h6>Proyecto "image tracker"</h6>
+                  <br>
+                  <a href="https://github.com/amontrn13/image-tracker">https://github.com/amontrn13/image-tracker</a>
+                </h5>
+              </div>
+          </div>
+        </div>
+        <div class="column column--small">
+          <div class="card card--stackable">
+              <div class="card-body">
+                <h5>
+                  <img class="inlineImage" src="images/github-logo.png" alt="github"> 
+                  <br>
+                  <h6>Proyecto Integrador de Sistema Distribuido de Recursos Humanos</h6>
+                  <br>
+                  <a href="https://github.com/ANGELCHAVESCHINCHILLA/PI-redes-sistemas-operativos-g1">https://github.com/ANGELCHAVESCHINCHILLA/PI-redes-sistemas-operativos-g1</a></h5>
+              </div>
+          </div>
+        </div>
+        <div class="column column--small">
+          <div class="card card--stackable">
+            <div class="card-body">
+                <h5>
+                  <img class="inlineImage" src="images/github-logo.png" alt="github">
+                  <br>
+                  <h6>Proyecto de optimización de 'Scrapy'</h6>
+                  <br>
+                  <a href="https://github.com/Software-Design-UCR/proyecto-los-agiles">https://github.com/Software-Design-UCR/proyecto-los-agiles</a></h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!--#include file="footer.shtml" -->

@@ -1,0 +1,54 @@
+<!--#set var="title" value="Contácteme" -->
+<!--#include file="header.shtml" -->
+<!--#include file="navbarTop.shtml" -->
+              <a class="siteNavbar-link" aria-current="page" href="goals.shtml">Mis objetivos</a>
+            </li>
+            <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+              <a class="siteNavbar-link siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Computación
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdownMenu-item" href="whyCS.shtml">Por qué computación?</a></li>
+                <li><a class="dropdownMenu-item" href="favoriteCourses.shtml">Cursos preferidos</a></li>
+                <li><a class="dropdownMenu-item" href="teachersAndClassmates.shtml">Mis profesores y compañeros</a></li>
+                <li><a class="dropdownMenu-item" href="downloadables.shtml">Descargas</a></li>
+              </ul>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+              <a class="siteNavbar-link" href="hobbies.shtml">Pasatiempos</a>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+              <a class="siteNavbar-link" href="aboutThisSite.shtml">Acerca de este sitio</a>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+                <a class="siteNavbar-link siteNavbar-link--active" href="contactMe.shtml">Contácteme</a>
+<!--#include file="navbarBottom.shtml" -->
+
+    <div class="siteStartingContent">
+      <h1>Contácteme</h1>
+
+      <div class="row siteStartingContent-innerGrid">
+        <div class="column column--small">
+          <div class="card card--stackable">
+              <div class="card-body">
+                <h5><img class="inlineImage" src="images/email-logo.png" alt="email"> ignacio.robles@ucr.ac.cr</h5>
+              </div>
+          </div>
+        </div>
+        <div class="column column--small">
+          <div class="card card--stackable">
+              <div class="card-body">
+                  <h5><img class="inlineImage" src="images/Instagram-logo.svg" alt="instagram"> @nachorobles10</h5>
+              </div>
+          </div>
+        </div>
+        <div class="column column--small">
+          <div class="card card--stackable">
+            <div class="card-body">
+                <h5><img class="inlineImage" src="images/phone-logo.webp" alt="phone"> +506 8667-2230</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--#include file="footer.shtml" -->

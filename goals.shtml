@@ -1,0 +1,56 @@
+<!--#set var="title" value="Mis objetivos" -->
+<!--#include file="header.shtml" -->
+<!--#include file="navbarTop.shtml" -->
+                  <a class="siteNavbar-link siteNavbar-link--active" aria-current="page" href="goals.shtml">Mis objetivos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+                  <a class="siteNavbar-link siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Computación
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdownMenu-item" href="whyCS.shtml">Por qué computación?</a></li>
+                    <li><a class="dropdownMenu-item" href="favoriteCourses.shtml">Cursos preferidos</a></li>
+                    <li><a class="dropdownMenu-item" href="teachersAndClassmates.shtml">Mis profesores y compañeros</a></li>
+                    <li><a class="dropdownMenu-item" href="downloadables.shtml">Descargas</a></li>
+                  </ul>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="hobbies.shtml">Pasatiempos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="aboutThisSite.shtml">Acerca de este sitio</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                    <a class="siteNavbar-link" href="contactMe.shtml">Contácteme</a>
+<!--#include file="navbarBottom.shtml" -->
+
+    <div class="siteStartingContent">
+        <h1>Estos son algunos de mis objetivos</h1>
+    </div>
+
+<!--#include file="carouselTop.shtml" -->
+            <div class="card card--generic">
+                <img src="images/french.jpeg" class="card-img-top" alt="francés">
+                <div class="card-body">
+                    <h3 class="card-text">Hablar francés fluido</h3>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card card--generic">
+                <img src="images/cook.jpeg" class="card-img-top" alt="cocinar">
+                <div class="card-body">
+                    <h3 class="card-text">Aprender a cocinar</h3>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card card--generic">
+                <img src="images/business.jpeg" class="card-img-top" alt="negocio">
+                <div class="card-body">
+                    <h3 class="card-text">Tener un negocio propio</h3>
+                </div>
+            </div>
+          </div>
+<!--#include file="carouselBottom.shtml" -->
+<!--#include file="footer.shtml" -->

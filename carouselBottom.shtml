@@ -1,0 +1,10 @@
+</div>
+<button class="carousel-prevButton" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <span class="carousel-prevButtonIcon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-nextButton" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <span class="carousel-nextButtonIcon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>

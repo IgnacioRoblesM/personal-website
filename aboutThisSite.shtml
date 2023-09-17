@@ -1,0 +1,56 @@
+<!--#set var="title" value="Acerca de este sitio" -->
+<!--#include file="header.shtml" -->
+<!--#include file="navbarTop.shtml" -->
+              <a class="siteNavbar-link" aria-current="page" href="goals.shtml">Mis objetivos</a>
+            </li>
+            <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+              <a class="siteNavbar-link siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Computación
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdownMenu-item" href="whyCS.shtml">Por qué computación?</a></li>
+                <li><a class="dropdownMenu-item" href="favoriteCourses.shtml">Cursos preferidos</a></li>
+                <li><a class="dropdownMenu-item" href="teachersAndClassmates.shtml">Mis profesores y compañeros</a></li>
+                <li><a class="dropdownMenu-item" href="downloadables.shtml">Descargas</a></li>
+              </ul>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+              <a class="siteNavbar-link" href="hobbies.shtml">Pasatiempos</a>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+              <a class="siteNavbar-link  siteNavbar-link--active" href="aboutThisSite.shtml">Acerca de este sitio</a>
+            </li>
+            <li class="siteNavbar-collapsableItem">
+                <a class="siteNavbar-link" href="contactMe.shtml">Contácteme</a>
+<!--#include file="navbarBottom.shtml" -->
+
+    <div class="siteStartingContent">
+        <h1>Acerca de este sitio</h1>
+    </div>
+
+    <div class="card card--long">
+        <div class="card-body">
+          <p class="card-text">Este sitio nace como un proyecto del curso de 
+            Desarrollo de Aplicaciones Web de la carrera de Ciencias de 
+            Computación e Informática de la UCR. En este, se pidió que se 
+            hiciera un sitio web personal con una estructura específica.
+            <br>
+            <br>
+            Este sitio es hosteado en un servidor perteneciente a la Escuela de
+            Ciencias de la Computación e Informática, llamado 'titanic'. 
+            <br>
+            <br>
+            El sitio pertende ser principalmente amigable a dispositivos móviles,
+            y al mismo tiempo ser compatible con todo tipo de dispositivos. Además
+            pretende cumplir con los requerimientos establecidos por el workframe
+            'maintainableCSS'.
+            <br>
+            <br>
+            Entre las tecnologías utilizadas para la creación de este sitio destacan:
+            html, css, sass, node.js, y server side includes. Se eligieron estas 
+            tecnologías por motivos de comodidad y eventual modularización del 
+            código fuente.
+          </p>
+        </div>
+    </div>
+<!--#include file="footer.shtml" -->

@@ -1,0 +1,12 @@
+<nav class="siteNavbar">
+    <div class="siteNavbar-content">
+        <a class="siteNavbar-brand" href="index.shtml">
+            <img class="logo" src="images/ignaciorobles-logo.png" alt="Ignacio Robles Logo">
+        </a>
+        <button class="siteNavbar-dropdownMenu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="siteNavbar-dropdownMenuLogo"></span>
+        </button>
+      
+        <div class="siteNavbar-collapsableArea" id="navbarNavDropdown">
+          <ul class="siteNavbar-collapsableItems">
+            <li class="siteNavbar-collapsableItem">

@@ -1,0 +1,56 @@
+<!--#set var="title" value="Pasatiempos" -->
+<!--#include file="header.shtml" -->
+<!--#include file="navbarTop.shtml" -->
+                  <a class="siteNavbar-link" aria-current="page" href="goals.shtml">Mis objetivos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+                  <a class="siteNavbar-link siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Computación
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdownMenu-item" href="whyCS.shtml">Por qué computación?</a></li>
+                    <li><a class="dropdownMenu-item" href="favoriteCourses.shtml">Cursos preferidos</a></li>
+                    <li><a class="dropdownMenu-item" href="teachersAndClassmates.shtml">Mis profesores y compañeros</a></li>
+                    <li><a class="dropdownMenu-item" href="downloadables.shtml">Descargas</a></li>
+                  </ul>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link siteNavbar-link--active" href="hobbies.shtml">Pasatiempos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="aboutThisSite.shtml">Acerca de este sitio</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                    <a class="siteNavbar-link" href="contactMe.shtml">Contácteme</a>
+<!--#include file="navbarBottom.shtml" -->
+
+    <div class="siteStartingContent">
+        <h1>Estos son algunos de mis pasatiempos</h1>
+    </div>
+
+<!--#include file="carouselTop.shtml" -->
+            <div class="card card--generic">
+                <img src="images/gym.jpeg" class="card-img-top" alt="gym">
+                <div class="card-body">
+                    <h3 class="card-text">Hacer ejercicio</h3>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card card--generic">
+                <img src="images/reading.webp" class="card-img-top" alt="lectura">
+                <div class="card-body">
+                    <h3 class="card-text">Leer</h3>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card card--generic">
+                <img src="images/bike-riding.avif" class="card-img-top" alt="motociclistas">
+                <div class="card-body">
+                    <h3 class="card-text">Andar en moto</h3>
+                </div>
+            </div>
+          </div>
+<!--#include file="carouselBottom.shtml" -->
+<!--#include file="footer.shtml" -->

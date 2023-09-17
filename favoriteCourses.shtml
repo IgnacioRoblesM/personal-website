@@ -1,0 +1,58 @@
+<!--#set var="title" value="Cursos favoritos" -->
+<!--#include file="header.shtml" -->
+<!--#include file="navbarTop.shtml" -->
+                  <a class="siteNavbar-link" aria-current="page" href="goals.shtml">Mis objetivos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem siteNavbar-collapsableItem--dropdown">
+                  <a class="siteNavbar-link siteNavbar-link--active siteNavbar-link--dropdown" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Computación
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdownMenu-item" href="whyCS.shtml">Por qué computación?</a></li>
+                    <li><a class="dropdownMenu-item dropdownMenu-item--active" href="favoriteCourses.shtml">Cursos preferidos</a></li>
+                    <li><a class="dropdownMenu-item" href="teachersAndClassmates.shtml">Mis profesores y compañeros</a></li>
+                    <li><a class="dropdownMenu-item" href="downloadables.shtml">Descargas</a></li>
+                  </ul>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="hobbies.shtml">Pasatiempos</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                  <a class="siteNavbar-link" href="aboutThisSite.shtml">Acerca de este sitio</a>
+                </li>
+                <li class="siteNavbar-collapsableItem">
+                    <a class="siteNavbar-link" href="contactMe.shtml">Contácteme</a>
+<!--#include file="navbarBottom.shtml" -->
+
+    <div class="siteStartingContent">
+        <h1>Estos son algunos de mis cursos favoritos hasta ahora...</h1>
+    </div>
+<!--#include file="carouselTop.shtml" -->
+            <div class="card card--generic">
+                <img src="images/algorithms.webp" class="card-img-top" alt="algoritmos">
+                <div class="card-body">
+                    <p class="card-text card-text--paragraph">Análisis de algoritmos y estrucutras de datos</p>
+                    <p class="card-text card-text--paragraph">La idea de crear algoritmos lo más eficientes posible es algo que me pareció muy interesante.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card card--generic">
+                <img src="images/programming.webp" class="card-img-top" alt="programación">
+                <div class="card-body">
+                    <p class="card-text card-text--paragraph">Programación II</p>
+                    <p class="card-text card-text--paragraph">Específicamente por el profesor Jeisson, este curso fue de enorme aprendizaje para mí.</p>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card card--generic">
+                <img src="images/software-engineering.jpeg" class="card-img-top" alt="ingeniería en software">
+                <div class="card-body">
+                    <p class="card-text card-text--paragraph">Ingeniería en software</p>
+                    <p class="card-text card-text--paragraph">Lo curso actualmente, y me gusta la conexión con la realidad en el mundo laboral.</p>
+                </div>
+            </div>
+          </div>
+<!--#include file="carouselBottom.shtml" -->
+<!--#include file="footer.shtml" -->
